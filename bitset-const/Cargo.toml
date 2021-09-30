@@ -7,4 +7,4 @@ description = "A statically sized bitset"
 license = "MIT"
 
 [dependencies]
-macros = { package = "bitset-const-macros", version = "0.1.0-dev" }
+bitset-const-macros = "0.1.0-dev"
