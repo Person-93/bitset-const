@@ -1,12 +1,5 @@
-[package]
-name = "bitset-const"
-authors = ["person93 <person93.person93@gmail.com>"]
-version = "0.1.0-dev"
-edition = "2018"
-description = "A statically sized bitset"
-license = "MIT"
+[workspace]
+members = ["bitset-const", "macros"]
 
-[lib]
-proc-macro = true
-
-[dependencies]
+[patch.crates-io]
+bitset-const-macros = { path = "macros" }

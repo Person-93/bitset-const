@@ -1,0 +1,15 @@
+[package]
+name = "bitset-const-macros"
+authors = ["person93 <person93.person93@gmail.com>"]
+version = "0.1.0-dev"
+edition = "2018"
+description = "A statically sized bitset"
+license = "MIT"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+derive-syn-parse = "0.1.5"
+quote = "1.0.9"
+syn = "1.0.77"
