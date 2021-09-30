@@ -1,0 +1,12 @@
+[package]
+name = "bitset-const"
+authors = ["person93 <person93.person93@gmail.com>"]
+version = "0.1.0-dev"
+edition = "2018"
+description = "A statically sized bitset"
+license = "MIT"
+
+[lib]
+proc-macro = true
+
+[dependencies]
