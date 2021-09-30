@@ -1,6 +1,3 @@
 [workspace]
 members = ["bitset-const", "macros"]
 repository = "https://github.com/Person-93/bitset-const"
-
-[patch.crates-io]
-bitset-const-macros = { path = "macros" }
